@@ -1,0 +1,99 @@
+:root{
+    --seashell: #fff3e8;
+    --ghost-white: #F8F7FF;
+
+}
+
+
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    background: lightblue;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background: #fff3e8;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    font-size: 24px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 0;
+}
+
+.hero .hero-content{
+    width: 50%;
+    flex: 1;
+}
+
+.hero .hero-content h1{
+font-size: 48px;
+font-weight: 900;
+}
+
+.hero .hero-content p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero .hero-content a{
+    border-radius: 20px;
+    background: blue;
+    color: white;
+    font-size: 18px;
+    padding: 6px 12px;
+}
+
+.hero img{
+    width: 400px;
+    flex: 1;
+}
