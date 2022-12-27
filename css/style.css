@@ -18,7 +18,6 @@ body{
     height: 100%;
     line-height: 1.5;
     font-family: "Roboto", sans-serif;
-    background: lightblue;
 }
 
 img{
@@ -31,6 +30,7 @@ ul{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 header{
@@ -129,6 +129,8 @@ font-weight: 900;
     width: 300px;
     height: 300px;
     margin-bottom: 20px;
+    border: 2px solid wheat;
+    border-radius: 10px;
 }
 
 .cards .card p{
@@ -149,11 +151,14 @@ font-weight: 900;
 .quote figcaption{
     text-align: end;
 }
+.action{
+    background: #F8F7FF;
+    padding: 100px 0;
+}
 
 .action-container{
-    background: pink;
+    background: lightblue;
     width: 100%;
-    margin: 100px 0;
     padding: 32px 120px;
     display: flex;
     justify-content: space-between;
@@ -178,5 +183,16 @@ font-weight: 900;
     border-radius: 10px;
     background: blue;
     color: white;
+}
+
+footer{
+    height: 60px;
+    background: #fff3e8;
+}
+.footer-container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
