@@ -104,7 +104,7 @@ font-weight: 900;
     padding: 20px 0;
 }
 
- h2{
+ .information h2{
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 20px;
@@ -148,5 +148,35 @@ font-weight: 900;
 }
 .quote figcaption{
     text-align: end;
+}
+
+.action-container{
+    background: pink;
+    width: 100%;
+    margin: 100px 0;
+    padding: 32px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.action-container .action-content{
+    font-size: 18px;
+}
+
+.action-content h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.action-container a{
+    margin-right: 120px;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: blue;
+    color: white;
 }
 
